@@ -1,0 +1,29 @@
+.home{
+    &-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        &__search{
+            width: 500px;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+    }
+    &-items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    &-item{
+        &__box{
+            max-width: 300px;
+            max-height: 300px;
+        }
+        &__img{
+            border-radius: 15px;
+            width: 300px;
+            height: 250px;
+        }
+    }
+}
+
